@@ -1140,6 +1140,9 @@ mission "Sheragi Archaeology: The Box 8"
 	
 	on complete
 		event "cube decoded" 40 50
+		log "People" "Desyo" `A brilliant Hai xenoprogramming expert, Desyo specializes in Sheragi code and software. She is more interested in technology and electronics than people and often coordinates the work in the Hai archeologist team, despite her introversion and lack of hierarchy. Her dedication is the grease that keeps that machine running.`
+		log "People" "Rakei" `Rakei is an engineering expert specializing in archaeological artifacts, but also very interested in new and unusual technology, often nerding out with Desyo over the latest scientific papers. She is part of the Hai archaeologist team tasked to uncover the mystery of the Sheragi black box.`
+		log "People" "Eyama" `Uncaring about formalities and seriousness, you wouldn't guess Eyama is an accomplished linguist specializing in Sheragi language. She also has an interest in culture and sociology in general, and has a lot more knowledge about human culture than you would expect from a Hai, or even most humans. Her work with the Hai archaeologist team is invaluable to deciphering Sheragi mysteries and maintaining their relationship with human partners.`
 		conversation
 			`It was a long trip, almost halfway across the galaxy. The Hai archaeologists have been quite friendly and amiable, giving you updates every time they made a new breakthrough. During this time, the cube, previously thought to be impenetrable, had been disassembled and cleaned. Components that decayed into a mess of oxidized wires and goopy paste over the eons have been identified and removed to substitute for equivalent ones, and a blueprint of the box and its circuits has started to take shape.`
 			`	As soon as you land, you call Albert Foster, who doesn't believe you when you say you've gotten alien archaeologists to help. You then look for the three Hai to figure out how they're going to go unnoticed on a human world. You're surprised to find Eyama wearing long, dark but colorful human clothing with an equally oversized hoodie and a bandanna. You recognize this outfit, very popular with the youth these days, who are generally regarded as delinquents by the previous generation. Additionally, she's carrying two more sets, for her Hai partners as well. It hides her body really well at the cost of making her look like a young boy, and the Hai's relatively short stature doesn't help.`
@@ -1167,11 +1170,8 @@ mission "Sheragi Archaeology: The Box 8"
 			choice
 				`	"I wasn't expecting to see you here."`
 				`	"Can I help you?"`
-			`	"It has come to my attention that your friends found a Sheragi black box, and kept it a secret. I am well aware your species view us with distrust, but please understand we only work to prevent extinction. I've been told not to interfere, but I must advise you to be careful with its contents. While it is nothing inherently dangerous, we feel like it would be safer on the hands of a skilled captain like you than anywhere else. You've been doing well so far, Captain."`
-			`	He turns around, and leaves you to think about it.`
-		log "People" "Desyo" `A brilliant Hai xenoprogramming expert, Desyo specializes in Sheragi code and software. She is more interested in technology and electronics than people and often coordinates the work in the Hai archeologist team, despite her introversion and lack of hierarchy. Her dedication is the grease that keeps that machine running.`
-		log "People" "Rakei" `Rakei is an engineering expert specializing in archaeological artifacts, but also very interested in new and unusual technology, often nerding out with Desyo over the latest scientific papers. She is part of the Hai archaeologist team tasked to uncover the mystery of the Sheragi black box.`
-		log "People" "Eyama" `Uncaring about formalities and seriousness, you wouldn't guess Eyama is an accomplished linguist specializing in Sheragi language. She also has an interest in culture and sociology in general, and has a lot more knowledge about human culture than you would expect from a Hai, or even most humans. Her work with the Hai archaeologist team is invaluable to deciphering Sheragi mysteries and maintaining their relationship with human partners.`
+			`	"It has come to my attention that your friends found a Sheragi black box, and kept it a secret. I am well aware your species view us with distrust, but please understand we only work to prevent extinction. I've been told not to interfere, but I must advise you to be careful with its contents. While it is nothing inherently dangerous, we feel that it would be safer in the hands of a skilled captain like you than anywhere else. You've been doing well so far, Captain."`
+			`	It turns around and leaves you to think about it.`
 
 
 
@@ -1196,7 +1196,7 @@ mission "Sheragi Archaeology: The Emerald Sword 1"
 mission "Sheragi Archaeology: The Emerald Sword 2"
 	landing
 	name "The Emerald Sword"
-	description "Bring an additional Jump Drive to Zug."
+	description "Bring an additional jump drive to Zug."
 	source "Zug"
 	to offer
 		has "Sheragi Archaeology: The Emerald Sword 1: done"
@@ -1305,7 +1305,7 @@ mission "Sheragi Archaeology: The Emerald Sword 3"
 	on complete
 		conversation
 			`As you enter the atmosphere of the alien world, you begin running some scans of the air quality to determine if it is safe to breathe. You quickly learn why it is that the Sheragi perished in space; the atmosphere has a high concentration of chlorine gas, fatal to all living creatures aside from those that seem to have miraculously evolved here. It takes some time to find a suitable landing spot - high enough to escape the highest concentrations of chlorine gas in the atmosphere, but flat enough to land on. You eventually park your ships over a mesa. The environmental suits brought along "just in case" turn out to be very useful here. The atmosphere would be otherwise unbreathable for long periods of time.`
-			`	Over the course of the next day, the workers unload some outfitting and repairing equipment, while scientists slowly work out the functions of the ship, and brief you and your crew on how to operate it. One of the workers invite you to visit the temporary outfitter and oversee the proper installation of the Outfits Expansion and the Jump Drive in the Emerald Sword.`
+			`	Over the course of the next day, the workers unload some outfitting and repairing equipment, while scientists slowly work out the functions of the ship, and brief you and your crew on how to operate it. One of the workers invite you to visit the temporary outfitter and oversee the proper installation of the Outfits Expansion and the jump drive in the Emerald Sword.`
 			`[You need to remove the Damaged Sheragi Systems to repair it.]`
 
 
